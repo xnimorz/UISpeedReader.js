@@ -1,0 +1,67 @@
+.ui-speed-reader {
+    width: 240px;
+    padding: 5px;
+    padding-bottom: 30px;
+    height: 60px;
+    background-color: #e8e9ea;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;
+    border-radius: 5px;
+}
+
+.ui-speed-reader-textarea {
+    margin:5px;
+    padding: 5px;
+    height: 45px;
+    width: 220px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+    .ui-speed-reader__line {
+        width:220px;
+        height: 1px;
+        border-bottom: 2px solid #333;
+    }
+
+        .ui-speed-reader__line_top:after {
+            height: 5px;
+            position: relative;
+            top: -8px;
+            left: 85px;
+            font-size: 5px;
+            border-right: 2px solid #333;
+            content: '';
+        }
+
+        .ui-speed-reader__line_bottom:after {
+            height: 5px;
+            position: relative;
+            top:-15px;
+            left: 85px;
+            font-size: 5px;
+            border-right: 2px solid #333;
+            content: '';
+        }
+
+        .ui-speed-reader__text {
+            margin: 0;
+            width: 220px;
+            height: 25px;
+            background-color: #fff;
+        }
+    .ui-speed-reader__speed {
+        float: right;
+    }
+    .ui-speed-reader__command {
+        cursor: pointer;
+        margin: 0 10px;
+    }
+    .ui-speed-reader__command:hover {
+        border-bottom: 1px dotted;
+    }
+    .ui-speed-reader__data {
+        font-weight: bold;
+    }
+    .ui-speed-reader__data span {
+        color:red;
+    }
